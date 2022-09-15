@@ -1,0 +1,38 @@
+.add {
+    background: rgb(46,139,87);
+    border-radius: 0px 10px 10px 0px;   
+}
+
+.remove {
+    background: rgb(46,139,87);
+    border-radius: 10px 0px 0px 10px;
+}
+.count {
+    background: rgb(46,139,87);
+    text-align: center;
+    color: white;
+}
+
+button {
+     color: white;
+    border: none;
+}
+button:hover {
+  color:rgb(15, 14, 14);
+  
+}
+@media(max-width: 540px){
+    .count {
+        background: rgb(60,179,113);
+        text-align: center;
+        color: white;
+    }
+    .remove {
+        background: rgb(60,179,113);
+        
+    }
+    .add {
+        background: rgb(60,179,113);
+          
+    }
+  }
